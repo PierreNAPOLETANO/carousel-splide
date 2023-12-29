@@ -23,7 +23,6 @@ onMounted(() => {
     focus: 3,
   })
 
-  // Code à reprendre pour le carousel
   splide.on('pagination:updated', (data) => {
     data.items.forEach((element) => {
       element.button.style.background = element.button.classList.contains('is-active')
